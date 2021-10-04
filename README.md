@@ -26,7 +26,7 @@ kind create cluster --name meucluster --config cluster.yaml
 
 ## Faça o deploy no k8s
 ```
-kubectl apply -f k8s/deployment.yaml
+kubectl apply -R -f k8s
 ```
 
 ### Acesse a aplicação pela porta 8080
